@@ -1,0 +1,67 @@
+//Font faces
+@font-face {
+  font-family: Relative;
+  font-style: normal;
+  src: url(../assets/fonts/Relative-Book.ttf);
+}
+
+@font-face {
+  font-family: Gza;
+  font-style: normal;
+  src: url(../assets/fonts/gza-seminegra-webfont.ttf);
+}
+
+.heading-primary {
+  line-height: 6.8rem;
+  font-size: 5.5rem;
+  letter-spacing: 0;
+
+  @media only screen and (max-width: $bp-small) {
+    font-size: 4rem;
+  }
+}
+
+.heading-secondary {
+  font-size: 4rem;
+
+  @media only screen and (max-width: $bp-small) {
+    font-size: 3rem;
+  }
+}
+
+.heading-tertiary {
+  font-family: Relative;
+  letter-spacing: 0.2rem;
+  font-size: 2.2rem;
+  text-transform: uppercase;
+
+  @media only screen and (max-width: $bp-small) {
+    font-size: 2rem;
+  }
+}
+
+p {
+  // font-family: Relative;
+}
+
+.para {
+  font-size: 1.7rem;
+  margin-bottom: 0.5rem;
+
+  &--2 {
+    font-family: Relative;
+  }
+}
+
+.quote {
+  font-family: Relative;
+  font-size: 2rem;
+}
+
+.ta-center {
+  text-align: center;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
