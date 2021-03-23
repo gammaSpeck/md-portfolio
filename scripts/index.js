@@ -61,3 +61,4 @@ const assign3DHoverAnimation = (elementId) => {
 
 assign3DHoverAnimation('exp--1') // ID of th element you wan to assign this animation to
 assign3DHoverAnimation('exp--2')
+assign3DHoverAnimation('exp--3')
