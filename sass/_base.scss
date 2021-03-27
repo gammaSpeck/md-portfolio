@@ -50,6 +50,7 @@ $font-display: Relative, sans-serif;
 
 html {
   font-size: 62.5%; // We want 1rem = 10px; 10px/16px = 62.5%
+  scroll-behavior: smooth;
   // height: 100vh;
   // overflow: hidden;
 
