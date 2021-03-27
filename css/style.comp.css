@@ -53,10 +53,19 @@ body {
   overflow-x: hidden;
   height: 100vh;
   scroll-snap-type: y mandatory; }
+  @media only screen and (max-width: 56.25em) {
+    .container {
+      height: max-content;
+      scroll-snap-type: clear; } }
 
 section {
   height: 100vh;
   scroll-snap-align: start; }
+  @media only screen and (max-width: 56.25em) {
+    section {
+      min-height: 100rem;
+      height: max-content;
+      scroll-snap-align: clear; } }
 
 .mb-1 {
   margin-bottom: 1rem; }
@@ -158,6 +167,9 @@ section {
   @media only screen and (max-width: 68.75em) {
     .landing-section {
       padding: 10rem; } }
+  @media only screen and (max-width: 68.75em) {
+    .landing-section {
+      min-height: 100vh; } }
   @media only screen and (max-width: 37.5em) {
     .landing-section {
       padding: 4rem; } }

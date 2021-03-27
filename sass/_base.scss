@@ -83,9 +83,22 @@ body {
 
   height: 100vh;
   scroll-snap-type: y mandatory;
+
+  // To make UX smoother on smaller devices, the vertical slideshow experience is removed
+  @media only screen and (max-width: $bp-medium) {
+    height: max-content;
+    scroll-snap-type: clear;
+  }
 }
 
 section {
   height: 100vh;
   scroll-snap-align: start;
+
+  // To make UX smoother on smaller devices, the vertical slideshow experience is removed
+  @media only screen and (max-width: $bp-medium) {
+    min-height: 100rem;
+    height: max-content;
+    scroll-snap-align: clear;
+  }
 }
