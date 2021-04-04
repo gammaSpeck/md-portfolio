@@ -12,7 +12,7 @@
   &__bg {
     @include absBgFull;
 
-    background-image: url('../assets/img/starry-sky.jpg');
+    background-image: url('../assets/img/starry-sky.webp');
     background-attachment: fixed;
   }
 
@@ -120,7 +120,7 @@
   // }
 
   &__bg {
-    background-image: url('../assets/img/code.jpg');
+    background-image: url('../assets/img/code.webp');
     background-size: cover;
     position: absolute;
     top: 0;

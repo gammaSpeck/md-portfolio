@@ -6,7 +6,7 @@
     @include absBgFull;
     filter: brightness(20%);
 
-    background-image: url('../assets/img/stars-spiral.jpg');
+    background-image: url('../assets/img/stars-spiral.webp');
     background-attachment: fixed;
   }
 
@@ -41,7 +41,11 @@
 }
 
 .skill-type {
-  background-image: linear-gradient(to bottom right, var(--color-bg-dark), var(--color-primary-dark));
+  background-image: linear-gradient(
+    to bottom right,
+    var(--color-bg-dark),
+    var(--color-primary-dark)
+  );
   text-align: center;
   opacity: 0.9;
 
@@ -108,7 +112,11 @@
   }
 
   &:hover {
-    background-image: linear-gradient(to bottom right, var(--color-primary), var(--color-bg-light-dark));
+    background-image: linear-gradient(
+      to bottom right,
+      var(--color-primary),
+      var(--color-bg-light-dark)
+    );
 
     // background-color: var(--color-bg-lighter-dark);
     transform: translateY(-0.5rem) scale(1.03);

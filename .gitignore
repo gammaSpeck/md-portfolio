@@ -1,3 +1,5 @@
 node_modules
 .vscode
 build
+# This is a jugaad during build time coz snowpack is a bi**h
+html

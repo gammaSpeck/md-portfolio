@@ -12,7 +12,7 @@
     "compress:css": "node-sass css/style.prefix.css css/style.css --output-style compressed",
     "build:css": "yarn compile:sass && yarn prefix:css && yarn compress:css",
     "snowpack:build": "snowpack build",
-    "build:prod": "rimraf build && yarn build:css && yarn snowpack:build"
+    "build:prod": "rimraf build && mkdir html && cp ./index.html ./html/index.html && yarn build:css && yarn snowpack:build"
   },
   "keywords": [],
   "author": "Madhu KM",

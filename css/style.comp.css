@@ -229,7 +229,7 @@ section {
     z-index: -1;
     filter: brightness(30%);
     filter: brightness(20%);
-    background-image: url("../assets/img/stars-spiral.jpg");
+    background-image: url("../assets/img/stars-spiral.webp");
     background-attachment: fixed; }
   @media only screen and (max-width: 37.5em) {
     .skills-section {
@@ -323,7 +323,7 @@ section {
     background-size: cover;
     z-index: -1;
     filter: brightness(30%);
-    background-image: url("../assets/img/starry-sky.jpg");
+    background-image: url("../assets/img/starry-sky.webp");
     background-attachment: fixed; }
   @media only screen and (max-width: 37.5em) {
     .experiences-section {
@@ -389,7 +389,7 @@ section {
   .exp:hover > .exp__bg {
     filter: brightness(50%); }
   .exp__bg {
-    background-image: url("../assets/img/code.jpg");
+    background-image: url("../assets/img/code.webp");
     background-size: cover;
     position: absolute;
     top: 0;
@@ -465,7 +465,7 @@ section {
     background-size: cover;
     z-index: -1;
     filter: brightness(30%);
-    background-image: url("../assets/img/galaxy.jpg");
+    background-image: url("../assets/img/galaxy.webp");
     background-attachment: fixed; }
   .about-section .heading-secondary {
     justify-self: start;
@@ -590,10 +590,10 @@ section {
     border-top-left-radius: 0.3rem;
     border-top-right-radius: 0.3rem; }
     .card__picture--1 {
-      background-image: url("../assets/img/me-1.jpg");
+      background-image: url("../assets/img/me-1.webp");
       filter: brightness(80%); }
     .card__picture--2 {
-      background-image: url("../assets/img/me-2.jpg");
+      background-image: url("../assets/img/me-2.webp");
       filter: brightness(80%); }
   .card__footer {
     position: absolute;
